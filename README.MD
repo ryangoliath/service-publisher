@@ -36,6 +36,11 @@ app.rabbit.port: 5672
 app.rabbit.username: guest
 app.rabbit.password: guest
 ```
+Example file structure:
+```
+-rw-rw-r-- 1 ryan ryan     0 Aug 18 00:00 app.properties
+-rw-rw-r-- 1 ryan ryan 18379 Aug 18 00:00 service-publisher.jar
+```
 ##
 4. Run
 The maven build would have generated a jar file called *service-publisher.jar* in the *target* directory. Execute the jar using the standard jar exection command:
